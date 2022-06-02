@@ -7,5 +7,6 @@ app.get('/hello', (_req, res) => {
 })
 
 app.listen(3000, () => {
+  // forbidden log
   console.log('Server is Running!');
 })
