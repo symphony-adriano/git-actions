@@ -5,7 +5,7 @@ on: [push]
 
 jobs:
   checkout:
-    name: Checkout code
+    name: Run PR checks
     runs-on: ubuntu-latest
     steps:
       - name: Check out code
