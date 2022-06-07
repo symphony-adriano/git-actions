@@ -7,5 +7,5 @@ app.get('/hello', (_req, res) => {
 })
 
 app.listen(3000, () => {
-  // console.log('Server is Running!'); // ridere di te
+  console.log('Server is Running!'); // ridere di te
 })
