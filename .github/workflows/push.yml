@@ -14,17 +14,12 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '14'  
-  build:
-    name: Build
-    runs-on: ubuntu-latest
-    needs: checkout
-    steps:
+
       - name: Install dependencies
         run: yarn
-  test:
-    name: Test
-    runs-on: ubuntu-latest
-    needs: checkout
-    steps:
+
       - name: Perform tests
         run: yarn test
+
+      - name: Perform lint
+        run: yarn lint
