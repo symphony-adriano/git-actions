@@ -7,5 +7,7 @@ app.get('/hello', (_req, res) => {
 })
 
 app.listen(3000, () => {
+  // le regole sono cosi
+  // e' la vita ed e' ora che cresci
   // console.log('Server is Running!');
 })
